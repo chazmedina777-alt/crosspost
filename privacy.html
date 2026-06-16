@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy • CrossPost (Multi Post)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }</style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+  <div class="max-w-3xl mx-auto px-6 py-16 text-sm leading-relaxed">
+    <a href="index.html" class="text-xs uppercase tracking-[1px] text-zinc-500 hover:text-white">← Back to CrossPost</a>
+
+    <h1 class="text-4xl font-semibold tracking-tighter mt-6 mb-2">Privacy Policy</h1>
+    <p class="text-zinc-500 mb-8">Last updated: June 2026</p>
+
+    <div class="space-y-8">
+      <p>
+        CrossPost (referred to as "Multi Post" in the TikTok for Developers portal) is a <strong>self-hosted desktop application</strong>. When you run your own copy, all data stays under your control on your own machine. We (the creators of the software) do not operate a hosted service and do not collect any personal data from users.
+      </p>
+
+      <div>
+        <h2 class="font-semibold text-xl mb-3">Data Stored Locally by the App</h2>
+        <ul class="list-disc pl-5 space-y-1.5">
+          <li>Local user records (no real personal identifiers required).</li>
+          <li>Encrypted OAuth access and refresh tokens for platforms you connect (TikTok, etc.). Encryption uses AES-256-GCM with a key you control.</li>
+          <li>Post history, media, and scheduling data stored only in your local database or file system.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="font-semibold text-xl mb-3">How OAuth Works</h2>
+        <p>When you connect TikTok (or other platforms), the desktop app opens the official authorization page. After you approve the requested scopes, TikTok redirects back to a local callback in the app. We exchange the code for tokens locally and store only the encrypted tokens on your machine. We never see or log your TikTok password.</p>
+      </div>
+
+      <div>
+        <h2 class="font-semibold text-xl mb-3">Data Sharing</h2>
+        <p>The app only sends data to the official platform APIs you have explicitly authorized (for example, TikTok's Content Posting API to publish a video you chose to post).</p>
+        <p>Platform providers receive only what is necessary to perform the actions you request.</p>
+      </div>
+
+      <div>
+        <h2 class="font-semibold text-xl mb-3">Your Rights</h2>
+        <p>You can disconnect accounts at any time (this deletes the stored encrypted tokens). You can delete the entire app and all its data from your computer whenever you want.</p>
+      </div>
+
+      <div>
+        <h2 class="font-semibold text-xl mb-3">Contact</h2>
+        <p>Because this is self-hosted desktop software, privacy practices depend entirely on how you install and use it. You are responsible for your own data and compliance when operating the tool.</p>
+      </div>
+
+      <p class="text-xs text-zinc-500 pt-6">This policy applies to the CrossPost desktop software. The official site for the Multi Post TikTok integration is this repository / pages.</p>
+    </div>
+  </div>
+</body>
+</html>
